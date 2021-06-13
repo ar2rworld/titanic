@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Artur trained a typical NN model with 3  hidden layers
+## Loaded it into Django server
+### and now attempting to create a cool UI for that model
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
