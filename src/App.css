@@ -4,8 +4,8 @@
   justify-content: center;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2015/07/02/10/46/ice-edge-828966_960_720.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-position: bottom;
   min-height: 300px;
 }
 body{
@@ -55,7 +55,7 @@ body{
 .Page{
   height: auto;
   width: 20px;
-  background-color: #61dafb;
+  background-color: rgba(97,218,251,0.6);
   display: flex;
   align-items: center;
   justify-content: center;
