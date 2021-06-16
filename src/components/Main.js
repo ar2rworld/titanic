@@ -9,7 +9,7 @@ const Main =(props)=>{
         console.log("start!");
       }}>Start</button></div>
     :
-    <div style={{transform: "rotate(90deg)", minWidth:"100%", padding:"5px", fontSize:"12px"}}>"Welcome to Titanic!"</div>}
+    <div className="minimized">"Welcome to Titanic!"</div>}
   </div>)
 }
 

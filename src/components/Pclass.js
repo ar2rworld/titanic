@@ -12,7 +12,7 @@ const Pclass=(props)=>{
         <form onSubmit={(e)=>{
           e.preventDefault();
         }}>
-          <h3>Choose your passanger class:</h3>
+          <h3>Choose your passenger class:</h3>
           <input type="radio" name="Pclass" value="1"
             onChange={onChange}
             checked={props.pclass==="1"}
@@ -31,10 +31,10 @@ const Pclass=(props)=>{
           <br/>
         </form>
         <button className="ToMain">Previous</button>
-        <button className="ToMain">Next</button>
+        <button className="ToSex">Next</button>
       </div>
     :
-    "Pclass view"}
+    <div className="minimized">Passenger class view</div>}
   </div>)
 }
 

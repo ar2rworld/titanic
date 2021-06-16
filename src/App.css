@@ -62,3 +62,9 @@ body{
   flex-direction: column;
   border:1px violet solid;
 }
+.minimized{
+  transform: rotate(90deg);
+  min-width:300px;
+  padding:5px;
+  font-size: 1.2vw;
+}
