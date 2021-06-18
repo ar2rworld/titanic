@@ -22,7 +22,7 @@ const Sex=(props)=>{
         <button className="ToAge">Next</button>
     </div>            
     :
-    <div className="minimized">Sex view</div>
+    <div className="minimized">Gender view</div>
     }
     </div>)
 }

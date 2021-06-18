@@ -15,7 +15,7 @@ const Fare=(props)=>{
       min="0" max="512.3292"
     /><br/>
     <button className="ToAge">Previous</button>
-    <button className="ToAge">Next</button>
+    <button className="ToSibsp">Next</button>
   </div>     
     :
     <div className="minimized">Fare view</div>}
