@@ -67,7 +67,7 @@ function App() {
     $('.ToMain').click(resetParams)
   })
   const getData=async()=>{
-    fetch("http://ec2-3-141-45-250.us-east-2.compute.amazonaws.com:8000/titanic/", {method:"GET", headers:{'Content-Type': 'application/json'}})
+    fetch("http://arturlinnik.eastus.cloudapp.azure.com:8000/titanic/", {method:"GET", headers:{'Content-Type': 'application/json'}})
     .then(r=>r.json())
     .then(o=>{
       //console.log(o[0].sibsp);
@@ -90,7 +90,7 @@ function App() {
   }
   const makeRequest=()=>{
     console.log("Making request")
-    fetch("http://ec2-3-141-45-250.us-east-2.compute.amazonaws.com:8001/test/?password="+process.env.TOKEN+
+    fetch("http://arturlinnik.eastus.cloudapp.azure.com:8001/test/?password=qwerty"+
     "&pclass=" +pclass+ "&sex=" +sex+ "&age=" +age+
     "&fare=" +fare+ "&sibsp=" +sibsp+ "&parch=" +parch+
     "&ticket=" +ticket+ "&cabin=" +cabin+ "&embarked=" +embarked
